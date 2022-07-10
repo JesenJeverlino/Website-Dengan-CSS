@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 35px;
+  font-family: arial, sans-serif;
+}
+
+body {
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/002/309/794/small/geometric-white-background-free-vector.jpg);
+}
+/* Navbar Abal-Abal */
+.kotaksatu {
+  background-color: black;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 94%;
+  z-index: 2;
+  opacity: 0.9;
+}
+
+.kotakdua {
+  background-color: red;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 93%;
+  z-index: 1;
+}
+
+/* Container */
+.container {
+  width: 75%;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 50px;
+  border: 2px solid black;
+  background-color: white;
+  position: relative;
+}
+
+/* Ribbon */
+.ribbon {
+  position: absolute;
+  right: -10px;
+  top: -12px;
+}
+
+.ribbon img {
+  width: 200px;
+}
+
+/* header */
+.header {
+  padding: 10px;
+}
+
+.header h1 {
+  margin-bottom: 5px;
+}
+
+.header ul li {
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 2px;
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+.header ul li a:hover {
+  font-weight: bold;
+}
+
+/* img */
+.image img {
+  /* background-image: url(https://thumbs.dreamstime.com/b/rainbow-love-heart-background-red-wood-60045149.jpg);
+  background-size: cover;
+  background-position: 0 -150px;
+  height: 400px; */
+  width: 100%;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+/* main */
+.main {
+  padding: 13px 10px;
+  width: 50%;
+  float: left;
+  border-right: 2px solid black;
+  margin-right: 15px;
+  margin-top: -13px;
+  margin-bottom: -13px;
+}
+
+.main .paragrafReal {
+  margin-top: 10px;
+  line-height: normal;
+  font-size: 15px;
+}
+
+/* about me */
+.aboutMe img {
+  float: left;
+  margin-right: 10px;
+  width: 150px;
+}
+
+.aboutMe p {
+  line-height: normal;
+  font-size: 15px;
+}
+
+.clearfix:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* copyR */
+.copyR {
+  width: 100%;
+  margin-top: 10px;
+  padding: 14px 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
